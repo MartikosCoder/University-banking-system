@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Клиент</title>
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="stylesheet" href="/assets/css/form.css">
+</head>
+
+<body>
+    <form id="form" action="#" method="post">
+        <input type="hidden" name="id" id="id">
+
+        <label for="second_name">Фамилия</label>
+        <input type="text" id="second_name" name="second_name" placeholder="Иванов">
+
+        <label for="first_name">Имя</label>
+        <input type="text" id="first_name" name="first_name" placeholder="Иван">
+
+        <label for="patronymic">Отчество</label>
+        <input type="text" id="patronymic" name="patronymic" placeholder="Иванович">
+
+        <label for="birth_date">Дата рождения</label>
+        <input type="date" id="birth_date" name="birth_date">
+
+        <label for="passport_series">Серия паспорта</label>
+        <input type="text" id="passport_series" name="passport_series" placeholder="XX">
+
+        <label for="passport_number">Номер паспорта</label>
+        <input type="text" id="passport_number" name="passport_number" placeholder="0000000">
+
+        <label for="passport_issued_by">Кем выдан паспорт</label>
+        <input type="text" id="passport_issued_by" name="passport_issued_by" placeholder="Минское ГУВД">
+
+        <label for="passport_issue_date">Когда выдан паспорт</label>
+        <input type="date" id="passport_issue_date" name="passport_issue_date">
+
+        <label for="id_number">Идентификационный номер</label>
+        <input type="text" id="id_number" name="id_number" placeholder="0X0X0X0X0X0X0X">
+
+        <label for="birth_place">Место рождения</label>
+        <input type="text" id="birth_place" name="birth_place" placeholder="ул.Пушкина 1">
+
+        <label for="live_city_id">Город проживания</label>
+        <select id="live_city_id" name="live_city_id">
+        </select>
+
+        <label for="live_address">Адрес проживания</label>
+        <input type="text" id="live_address" name="live_address" placeholder="ул.Пушкина 1">
+
+        <label for="home_phone">Домашний телефон</label>
+        <input type="text" id="home_phone" name="home_phone" placeholder="80XXXXXXX">
+
+        <label for="mobile_phone">Мобильный телефон</label>
+        <input type="text" id="mobile_phone" name="mobile_phone" placeholder="375XXXXXXXXX">
+
+        <label for="email">E-Mail</label>
+        <input type="email" id="email" name="email" placeholder="email@site.com">
+
+        <label for="work_place">Место работы</label>
+        <input type="text" id="work_place" name="work_place" placeholder="ООО Компания">
+
+        <label for="work_occupation">Должность</label>
+        <input type="text" id="work_occupation" name="work_occupation" placeholder="Программист">
+
+        <label for="registration_address">Адрес регистрации</label>
+        <input type="text" id="registration_address" name="registration_address" placeholder="ул.Пушкина 1">
+
+        <label for="family_status_id">Семейное положение</label>
+        <select id="family_status_id" name="family_status_id">
+        </select>
+
+        <label for="citizenship_id">Гражданство</label>
+        <select id="citizenship_id" name="citizenship_id">
+        </select>
+
+        <label for="disability_id">Инвалидность</label>
+        <select id="disability_id" name="disability_id">
+        </select>
+
+        <label for="is_pensioner">Является пенсионером</label>
+        <input type="checkbox" name="is_pensioner" id="is_pensioner">
+
+        <label for="monthly_income">Ежемесячный доход (в бел.рублях)</label>
+        <input type="number" id="monthly_income" name="monthly_income" placeholder="1000">
+    </form>
+    <button id="send_btn" class="button">Отправить</button>
+
+    <script src="/assets/js/form.js"></script>
+</body>
+
+</html>
